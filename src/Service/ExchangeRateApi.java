@@ -13,7 +13,7 @@ import java.net.http.HttpResponse.BodyHandlers;
 public class ExchangeRateApi {
 
     public ConversionRate buscaMoeda(String moeda){
-        String apiKey = "555d4a08c0936482f638f6ed";
+        String apiKey = System.getenv("EXCHANGERATE_API_KEY");
 
         URI link = URI.create("https://v6.exchangerate-api.com/v6/"+apiKey+"/latest/"+moeda);
 
