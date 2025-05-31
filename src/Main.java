@@ -25,7 +25,7 @@ public class Main {
             moedaBase = input.nextLine().trim().toUpperCase();
 
             if (moedaBase.equalsIgnoreCase("SAIR")) {
-                return; // ou break; se quiser continuar algo depois do loop
+                return; 
             }
 
             ConversionRate conversionRate = exchangeRateApi.buscaMoeda(moedaBase);
