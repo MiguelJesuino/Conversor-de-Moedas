@@ -34,7 +34,7 @@ Exemplo da estrutura de diretórios:
 1. Clone o repositório:
     
     ```bash
-    git clone https://github.com/seu-usuario/conversor-moedas-java.git
+    git clone https://github.com/MiguelJesuino/conversor-moedas-java.git
     ```
 2. Importe o projeto na sua IDE (IntelliJ, Eclipse, VS Code, etc.)
 
